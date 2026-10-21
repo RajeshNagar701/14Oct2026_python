@@ -35,6 +35,7 @@ print("Shri ganeshay Namahh")
 
 
 # single line comment 
+
 """
 multi
 line
@@ -45,7 +46,7 @@ In vs : shorcut : ctl + /
 
 #Python Indentation
 if 5 > 2:
-  print("Five is greater than two!")
+    print("Five is greater than two!")
   
 # Semicolons (Optional, Rarely Used)
 # print("Hello"); print("How are you?"); print("Bye bye!")   

@@ -7,9 +7,9 @@ name (age, carname, total_volume).
 
 => There 3 way to assign value
 
-1)site_name = 'programiz.pro'       // single value
-2)a, b, c =  5, 3.2, 'Hello'        // multiple values
-3)site1 = site2  = 'programiz.com'  // same value in 2 variables
+1) site_name = 'programiz.pro'       // single value
+2) a, b, c =  5, 3.2, 'Hello'        // multiple values
+3) site1 = site2  = 'programiz.com'  // same value in 2 variables
 
 
 =====================================================
@@ -20,7 +20,7 @@ Names should have a combination of letters in lowercase (a to z)
 or uppercase (A to Z) or digits (0 to 9) or an underscore (_)
 Python is case-sensitive. So num and Num are different variables
 
-Legal variable names:
+Legal variable names:  name start with letter or _
 
     myvar = "John"
     my_var = "John"
@@ -50,6 +50,13 @@ Many Values to Multiple Variables
 
     x, y, z = "Orange", "Banana", "Cherry"
     
+    x="Orange"
+    y="Banana"
+    z="Cherry"
+    
+    
+    
+    
 One Value to Multiple Variables
     
     x = y = z = "Orange"
@@ -57,7 +64,8 @@ One Value to Multiple Variables
 
 Unpack a Collection
 
-    fruits = ["apple", "banana", "cherry"]
+    fruits = ["apple", "banana", "cherry"]  // array : collection value
+    
     x, y, z = fruits
     print(x)
 
@@ -73,25 +81,30 @@ You can also use the + operator to output multiple variables:
     print(x, y, z)
     print(x + y + z)
 
-===========================================================
+==========================================================================
 
 
    types of variable
+   
    1) Primitives 
         int     5 -5 0
         float   10.5
         char    'A'
         string  "HELLO"
-        boolean true / false
+        boolean : true / false
+        
+        =====================================================
         
    2) Non Primitives / collection
 
-    list   [5,6,"hello"]
-    tuple  (5,6,"hello")
-    set    {5,6, "hello"}
+    list   [5,6,"hello"]  flexible add/up/del    
+    tuple  (5,6,"hello")  fixed length no one change 
+    set    {5,6, "hello"} value not reapet   
+    
+            property : value
     disc   { id:1, name:"raj", age:35, mobile:"12365478" }
     
-
+==========================================================================
 
 Python Literals
     
