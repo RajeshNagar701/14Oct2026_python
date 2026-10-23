@@ -110,11 +110,12 @@ match day:
 
 
 # pass
-age=17
-if age >= 18:
-    pass
-else:
-    print("Deny access.")
+
+# age=17
+# if age >= 18:
+#     pass
+# else:
+#     print("Deny access.")
 
 
 # age = 22
